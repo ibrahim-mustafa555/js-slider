@@ -1,0 +1,56 @@
+ body
+{
+    font-family: 'segoe ui light';
+}
+
+/* .item
+{
+position: relative;
+margin-bottom: 30px;
+cursor: pointer;
+} */
+.item-caption
+{
+    background-color: #fff;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 25px;
+    text-align: center;
+}
+
+
+#backi
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0 ,0 , 0.5);
+}
+
+#backiover
+{
+background-image: url(../img/2.jpg);
+background-size: 100% 100%;  
+width: 50%;
+height: 75vh; 
+position: relative;
+}
+
+#close
+{
+    position: absolute;
+    top: 20px;
+    right: 20;
+}
+
+#close , #prev, #next
+{
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+ 
